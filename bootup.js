@@ -1,0 +1,1 @@
+MNKY.GHE = MNKY.GHE || {};
