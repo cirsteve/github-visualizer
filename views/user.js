@@ -4,6 +4,8 @@
     MNKY.GHE.UserView = Backbone.View.extend({
         template: MNKY.TMPL.github_user,
 
+        className: "row github-user",
+
         initialize: function (options) {
             this.render();
             return this;
