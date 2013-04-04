@@ -41,7 +41,7 @@
 
             $repoTarget.empty();
             $vizTarget.empty();
-            new MNKY.GHE.PieChartView({model: pie});
+            new MNKY.GHE.PieChartView({model: pie, el:$("#viz-wrapper")});
             
 
             _.each(repos, function (repo) {
